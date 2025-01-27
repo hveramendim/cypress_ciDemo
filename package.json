@@ -1,0 +1,24 @@
+{
+  "name": "curso_cypress_2024",
+  "version": "1.0.0",
+  "description": "Curso de Cypres 2024",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open"
+  },
+  "author": "Henry",
+  "license": "ISC",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.5",
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4",
+    "@cypress/webpack-preprocessor": "^6.0.2",
+    "babel-loader": "^9.2.1",
+    "cypress": "^13.17.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-plugin-tab": "^1.0.5",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10"
+  }
+}
